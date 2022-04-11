@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Menu } from './menu.class';
 
 @Component({
   selector: 'app-menu',
@@ -6,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
+
+  menus: Menu[] = [
+    new Menu("HOME", "/home"),
+    new Menu("ABOUT", "/about")
+  ]
 
   constructor() { }
 

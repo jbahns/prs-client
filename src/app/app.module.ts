@@ -8,11 +8,11 @@ import { AppComponent } from './app.component';
 import { E404Component } from './core/e404/e404.component';
 import { HomeComponent } from './core/home/home.component';
 import { MenuComponent } from './menu/menu.component';
-import { UserComponent } from './prs/user/user.component';
-import { VendorComponent } from './prs/vendor/vendor.component';
-import { ProductComponent } from './prs/product/product.component';
-import { RequestComponent } from './prs/request/request.component';
-import { RequestlineComponent } from './prs/requestline/requestline.component';
+import { UserComponent } from './user/user.component';
+import { VendorComponent } from './vendor/vendor.component';
+import { ProductComponent } from './product/product.component';
+import { RequestComponent } from './request/request.component';
+import { RequestlineComponent } from './requestline/requestline.component';
 import { AboutComponent } from './core/about/about.component';
 
 @NgModule({
